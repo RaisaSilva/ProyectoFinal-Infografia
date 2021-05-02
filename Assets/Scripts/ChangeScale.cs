@@ -8,7 +8,7 @@ public class ChangeScale : MonoBehaviour
 {
     public Button zoomIn;
     public Button zoomOut;
-    private Vector3 scaleChange = new Vector3(0.1f, 0.1f, -0.1f);
+    private Vector3 scaleChange = new Vector3(-0.1f, -0.1f, -0.1f);
 
     void Start()
     {
